@@ -2,11 +2,16 @@ What challenges did you encounter with this assignment, if any?
 The biggest challenge is how to cover all situations 
 
 What did you think about the requirements specification for this assignment?
-There will be some ambiguity in the requirements of this assignment. I am not sure whether the side length of the triangle is of type int or float. I'm not sure if the user will only enter numeric types, not strings.
+There will be some ambiguity in the requirements of this assignment. 
+I‘’m not sure whether the side length of the triangle is of type int or float. 
+I'm not sure if the user will only enter numeric types, not strings.
+I'm not sure if I need to distinguish between isosceles right triangles and scalene right triangles.
+Because the requirements specification is to classify the triangles and give definitions, but the definitions overlap.
+
 
 What challenges did you encounter with the tools?
 The biggest problem encountered when using unit tests is how to choose the judgment conditions
 
-Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
 
+Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
 I assert whether the three sides can form a triangle, and tested 4 classifications separately. Both positive and negative test methods are also used.
