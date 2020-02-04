@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-update the logic in classifytTriangle() to fix all of the logic bugs
-Feb, 3, 2020
+Created on Thu Jan 14 13:44:00 2016
+Updated Jan 21, 2018
 
-@author: Cheng Tian
+The primary goal of this file is to demonstrate a simple python program to classify triangles
+
+@author: jrr
+@author: rk
 """
 
 def classifyTriangle(a,b,c):
@@ -44,7 +47,7 @@ def classifyTriangle(a,b,c):
         return 'NotATriangle'
         
     # now we know that we have a valid triangle 
-    if a == b and b == c  and a == c:
+    if a == b and b == a and a == c:
         return 'Equilateral'
     elif ((a ** 2) + (b ** 2)) == (c ** 2) or ((b ** 2) + (c ** 2)) == (a ** 2) or ((a ** 2) + (c ** 2)) == (b ** 2) :
         return 'Right'
